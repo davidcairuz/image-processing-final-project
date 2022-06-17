@@ -14,3 +14,11 @@ The goal of the project is to build a tool that, given an image with written Mor
 This tool can be useful for scenarios in which the user who received a morse code message is not familiarized with how to decode it. This way, all the user needs to do is to write the code by hand and scan it with its phone to figure out the meaning of the message.
 
 In the future, the set of features of this tool can be expanded and improved to include translation of other codes or/and languages, such as Braille and Elven languages from the Lord of the Rings.
+
+## Input Images Description
+
+As for the partial report update, we are going to use only digital images with the symbols " . " and " _ " representing, respectively, dots and dashes, the standardized sequence of two signal durations.
+
+The images are .jpeg with a white background and the symbols are written in black.
+
+For the final report, the group aims to use hand-written Morse Code as well, and hopes that the algorithm built can identify the difference between the symbols even with slightly inconsistencies caused by humans. 
