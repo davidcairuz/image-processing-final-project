@@ -17,7 +17,7 @@ In the future, the set of features of this tool can be expanded and improved to 
 
 ## Input Images Description
 
-As for the partial report update, we are going to use only digital images with the symbols " . " and " _ " representing, respectively, dots and dashes, the standardized sequence of two signal durations.
+As for the partial report update, we are going to use only digital images with the symbols " . " and " _ " representing, respectively, dots and dashes, the standardized sequence of two signal durations. For better comprehension, each line contains one letter. 
 
 The images are .jpeg with a white background and the symbols are written in black.
 
