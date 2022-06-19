@@ -38,3 +38,4 @@ Finally, after the set of dots and dashes have been recognized from the image an
 ## References
 * https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html
 * https://docs.opencv.org/4.x/d7/d1b/group__imgproc__misc.html#ga72b913f352e4a1b1b397736707afcde3
+* Image Processing Course SCC0251 - https://edisciplinas.usp.br/course/view.php?id=95776
