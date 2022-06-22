@@ -29,11 +29,11 @@ The first step is to turn the image to gray scale to prepare it for further proc
 
 The second step aims to morphologically transform the image in order to make it easier to deal with it later on. The transformation used is the opening, which consists on an erosion followed by a dilation. The erosion transformation is responsible for removing any pixels with a different color form the background that is not within the limits of the foreground object. Afterwards, the dilation transformation takes part in the process, executing the opposite of what erosion just did. It turns any pixel element into '1' if at least one pixel under the kernel is '1'. This increases the area of the foregroung object. The reason why theses two transformations are used in the specific order is that erosion removes white noises while it also shrinks the object. Dilation, then, is used to increase the object size once again.
 
-After the image is segment and properly transformed, another transformation takes place, in which the dot from the Morse code input are turned into squares. That decision was made in order to facilitate the codification of the form.
+At this point, after the image is segmented and properly transformed, the plan is to make another transformation in which the dot from the Morse code input are turned into squares. That decision was made in order to facilitate the codification of the form. This isn't implemented yet.
 
-Following, the image as whole is analyzed, pixel by pixel. The differentiation between the dot and the dash is made by measuring the width of a line of white pixels which, at this point of the development of the project, was chosen as the color of contrast. The background is currently set as black.
+Following, the image as a whole is analyzed, pixel by pixel. The differentiation between the dot and the dash is made by measuring the width of a line of white pixels which, at this point of the development of the project, was chosen as the color of contrast. The background is currently set as black. This part is not working properly yet and we believe the last step of image processing might fix it.
 
-Finally, after the set of dots and dashes have been recognized from the image and turned into text, a simple translation is made using a previously input dictionary from Morse code to the Latin alphabet.
+Finally, after the set of dots and dashes have been recognized from the image and turned into text, a simple translation is made using a input dictionary from Morse code to the Latin alphabet.
 
 ## References
 * https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_morphological_ops/py_morphological_ops.html
