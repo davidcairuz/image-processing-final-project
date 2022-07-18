@@ -7,6 +7,10 @@
 - Maria Fernanda Lucio de Mello, 11320860, mariafernanda.mello@usp.br
 - Marina Fontes Alcantara Machado, 10692040, marina.fmachado@usp.br
 
+## Video presentation
+
+The video presentation of this project can be watched [here](https://www.canva.com/design/DAFGsE7wxgg/qs-b2YsGCGGEp9lblHvACw/watch?utm_content=DAFGsE7wxgg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
+
 ## Abstract
 
 The goal of the project is to build a tool that, given an image with written Morse Code, is able to identify sequences of characters on the image, translate the code, and display it in plain text. To develop this tool we'll use Image Segmentation to identify where each morse code character is in the image and Image Description techniques to identify the meaning of each character.
